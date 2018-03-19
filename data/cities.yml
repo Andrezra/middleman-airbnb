@@ -1,0 +1,8 @@
+- name: 'Rio'
+  link: 'https://kitt.lewagon.com/placeholder/cities/rio'
+  user: "link"
+  category: "POPULAR"
+- name: 'Shanghai'
+  link: 'https://kitt.lewagon.com/placeholder/cities/shanghai'
+- name: "Berlin"
+  link: "https://kitt.lewagon.com/placeholder/cities/shanghai"

@@ -1,0 +1,9 @@
+<div style="margin-top: 50px;"><ul class="list-inline text-center">
+  <% ["Caloma11", "Andrezra"].each do |gh_username| %>
+    <li class="spacing">
+      <%= link_to "<img src='https://kitt.lewagon.com/placeholder/users/#{gh_username}' class='avatar'>", "https://github.com/#{gh_username}", style:"background-image: url('https://kitt.lewagon.com/placeholder/users/#{gh_username}')" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
+</div>
