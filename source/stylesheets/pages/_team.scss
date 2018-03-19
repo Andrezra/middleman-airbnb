@@ -3,11 +3,31 @@ width: 300px;
 margin: 0px 50px;
 }
 
-.avatar {
+.team-card .avatar {
   height: 300px;
   border-radius: 50%;
+  margin-top: 50px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.2);
 }
 
-.spacing{
- margin: 50px 50px;
+
+h3{
+  margin-top: 50px;
+  font-weight: lighter;
+  font-size:36px;
+}
+
+.team-card {
+  margin: 100px 50px 0px 50px;
+  background-color: rgba(255,255,255,.9);
+  width: 400px;
+  height: 500px;
+  align: center;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+}
+
+.background {
+  background-image: url(https://images.unsplash.com/photo-1504278524404-ef6a2b4c86f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=176a32dd3fafbabfd0c3a1e6494c646b&auto=format&fit=crop&w=1352&q=80);
+  background-size: cover;
+  height: 82vh;
 }
